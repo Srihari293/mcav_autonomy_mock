@@ -14,12 +14,13 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='srihari',
-    maintainer_email='ssrihari2002@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer_email='srihari2002@gmail.com',
+    description='Control node',
+    license='License',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'control_node = ros2_tutorial.control_node:main',
         ],
     },
 )
