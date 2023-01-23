@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'ros2_tutorial'
+package_name = 'srihari_package'
 
 setup(
     name=package_name,
