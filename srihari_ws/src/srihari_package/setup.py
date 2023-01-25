@@ -15,12 +15,13 @@ setup(
     zip_safe=True,
     maintainer='srihari',
     maintainer_email='ssrihari2002@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='This is the Emergency breaking system module created by Srihari',
+    license="MCAV's intellectual property maybe? License 20.23",
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'control_node = srihari_package.control_node:main',
+            'laser_sensor_node = srihari_package.laser_sensor_node:main'
         ],
     },
 )
