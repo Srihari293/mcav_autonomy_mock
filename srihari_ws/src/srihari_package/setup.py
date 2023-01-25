@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'control_node = srihari_package.control_node:main',
-            'laser_sensor_node = srihari_package.laser_sensor_node:main'
+            'laser_sensor_node = srihari_package.laser_sensor_node:main',
+            'advance_breaking_node = srihari_package.advance_breaking_node:main'
         ],
     },
 )
