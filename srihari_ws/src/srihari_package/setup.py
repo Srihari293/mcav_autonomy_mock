@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'control_node = srihari_package.control_node:main',
         ],
     },
 )
